@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="weather.css">
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="search-section">
+            <input type="text" class="search-bar" placeholder="Search City" >
+            <button class="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="data-section">
+            <div class="data">
+                <div class="data-row">
+                    <ul>
+                        <li class="cityname"></li>
+                        <li class="date"></li>
+                    </ul>
+
+                </div>
+                <div class="loader" id="loader" style="display: none;"></div>
+
+                <div class="data-row">
+                    <ul>
+                        <li class="picture"></li>
+                        <li class="temp"></li>
+                    </ul>
+
+                </div class="data-row">
+                <ul>
+                    <li class="humidity"></li>
+                    <li class="windspeed"></li>
+                </ul>
+
+            </div>
+        </div>
+         
+    </div>
+    <script src="weather.js"></script>
+</body>
+
+</html>
